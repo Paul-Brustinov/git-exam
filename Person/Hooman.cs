@@ -5,6 +5,6 @@ namespace git_exam.Person {
         [YamlMember(Alias = "name")]
         public string Name { get; set; }
         [YamlMember(Alias = "surname")]
-        public string Surname { get; set; }
+        public string Familiya { get; set; }
     }
 }
