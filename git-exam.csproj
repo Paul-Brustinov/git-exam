@@ -52,6 +52,7 @@
     <Compile Include="Reader\ChumakReader.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="cars.yml" />
     <Content Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
