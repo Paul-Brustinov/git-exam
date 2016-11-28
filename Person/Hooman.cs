@@ -1,4 +1,5 @@
-﻿using YamlDotNet.Serialization;
+﻿using Newtonsoft.Json;
+using YamlDotNet.Serialization;
 
 namespace git_exam.Person {
     public class Hooman : IPerson {
@@ -6,5 +7,9 @@ namespace git_exam.Person {
         public string Name { get; set; }
         [YamlMember(Alias = "surname")]
         public string Surname { get; set; }
+
+        [YamlIgnore]
+        [JsonIgnore]
+        public string FullName => $"{Name} {Surname}";
     }
 }

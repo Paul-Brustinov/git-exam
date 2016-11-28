@@ -3,8 +3,8 @@ using git_exam.Person;
 using YamlDotNet.Serialization;
 
 namespace git_exam.Reader {
-    public class ChumakReader {
-        private const string Path = "../../chumak.yml";
+    public class PersonsReader {
+        private const string Path = "../../persons.yml";
 
         public static Hooman Get()
         {
