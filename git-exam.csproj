@@ -49,7 +49,9 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Reader\AbstractGetter.cs" />
+    <Compile Include="Reader\CarsReader.cs" />
     <Compile Include="Reader\ChumakReader.cs" />
+    <Compile Include="Vehicles\Car.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
