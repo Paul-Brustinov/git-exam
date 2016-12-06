@@ -6,10 +6,12 @@ namespace git_exam.Person {
         [YamlMember(Alias = "name")]
         public string Name { get; set; }
         [YamlMember(Alias = "surname")]
+
         public string Surname { get; set; }
 
         [YamlIgnore]
         [JsonIgnore]
         public string FullName => $"{Name} {Surname}";
+
     }
 }
